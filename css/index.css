@@ -358,7 +358,9 @@ footer {
   padding-top: 0;
   padding-bottom: 0;
 }
-
+.footer-nav-bar {
+  display: flex;
+}
 .cp {
   font-size: 1rem;
   align-self: flex-end;

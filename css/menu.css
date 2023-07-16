@@ -201,12 +201,15 @@ nav {
   align-self: auto;
   width: 235px;
 }
+
+.nav-bar-item {
+  padding: 4rem;
+}
 .logos {
   display: flex;
   justify-content: space-evenly;
 }
 .logo {
-  padding: 0 3rem;
   width: 28px;
   height: 28px;
 }
@@ -275,6 +278,9 @@ footer {
   flex-grow: 1.89;
   padding-top: 0;
   padding-bottom: 0;
+}
+.footer-nav-bar {
+  display: flex;
 }
 
 .cp {
