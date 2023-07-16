@@ -203,6 +203,10 @@ nav {
   align-self: auto;
   width: 235px;
 }
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+}
 .logo {
   padding: 0 3rem;
   width: 28px;
