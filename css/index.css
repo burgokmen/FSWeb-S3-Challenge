@@ -231,7 +231,12 @@ nav {
 }
 
 .gal-img {
-  width: 30%;
+  width: 25%;
+  margin: 2rem;
+}
+
+.gallery-div h2 {
+  margin: 3rem;
 }
 
 /* about us section */
@@ -315,6 +320,47 @@ footer {
   height: 15vh;
   padding-top: 2.5vh;
   font-size: 3rem;
+  display: flex;
+  align-content: center;
+}
+.footer {
+  background-color: rgba(0, 0, 0, 0.713);
+  display: flex;
+  align-content: center;
+}
+.email {
+  flex-basis: 20rem;
+  flex-grow: 1;
+}
+.submit {
+  flex-basis: 20rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-email {
+  flex-basis: 31.25rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav {
+  flex-basis: 59.0625rem;
+  flex-grow: 1.89;
+  padding: 0 4rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cp {
+  font-size: 1rem;
+  align-self: flex-end;
 }
 
 /* mobile media query */
